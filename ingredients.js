@@ -17,14 +17,14 @@ for (let j = 0; j < ingredients.length; j++) {
 // Write any loop (while or for) that prints out the contents of ingredients backwards:
 
 console.log("Kitchen Materials: Reversed:");
-let l = ingredients.length -1 ;
-while (l >= 0) {
-  console.log(ingredients[l]);
-  l--;
+let k = ingredients.length -1 ;
+while (k >= 0) {
+  console.log(ingredients[k]);
+  k--;
 }
 
 console.log("Kitchen Materials Reversed:");
-for (let k = ingredients.length - 1; k >= 0; k--){
-  console.log(ingredients[k])
+for (let l = ingredients.length - 1; l >= 0; l--){
+  console.log(ingredients[l])
 }
 
